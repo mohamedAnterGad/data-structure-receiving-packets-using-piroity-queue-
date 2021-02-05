@@ -1,0 +1,9 @@
+This assignment will be based on circular priorty queue using array implementation (fixed size).
+ In communiation networks, a sender can send a sequene of pakets (i.e. units of information transported
+over the network) but due to unpredictable network conditions, these pakets
+can be lost or arrive out-of-order
+at the reciever.
+We focus here on the case of out-of-order delivery of pakets at the reeiver. The reeiver has a buffer in
+which it temporarily stores the incoming pakets. It only delivers pakets that are in proper sequene to the
+final application that needs the information sent by the sender.
+
